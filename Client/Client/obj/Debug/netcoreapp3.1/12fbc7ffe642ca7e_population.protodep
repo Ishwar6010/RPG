@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/Population.cs \
+obj\Debug\netcoreapp3.1/PopulationGrpc.cs: Protos/population.proto

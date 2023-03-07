@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+option csharp_namespace = "GrpcPopulation";
+package population;
+service populationProvider{
+	rpc getPopulation (populationRequest) returns (populationResponse);
+}
+message populationRequest{
+	string State = 1;
+}
+message populationResponse{
+	string count = 1;
+}
